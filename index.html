@@ -1,31 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Dashboard Program Anak</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>Dashboard Pengajian</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1>Dashboard Program Anak</h1>
+<div class="sidebar">
+<h2>📚 Pengajian</h2>
+<a href="#">Dashboard</a>
+<a href="#">Data Santri</a>
+<a href="#">Setoran Al-Qur'an</a>
+<a href="#">Fiqih</a>
+<a href="#">Akhlak</a>
+</div>
+
+<div class="content">
+<h1>Dashboard</h1>
 
 <div class="card">
-    <h3>📖 Setoran Al-Qur'an</h3>
-    <p>Jumlah setoran hari ini: <b id="quran">0</b></p>
+<h3>Jumlah Santri</h3>
+<p>30</p>
 </div>
 
 <div class="card">
-    <h3>📚 Fiqih</h3>
-    <p>Materi selesai: <b id="fiqih">0</b></p>
+<h3>Setoran Hari Ini</h3>
+<p>18</p>
 </div>
 
 <div class="card">
-    <h3>🌱 Akhlak</h3>
-    <p>Penilaian baik: <b id="akhlak">0</b></p>
+<h3>Fiqih Selesai</h3>
+<p>80%</p>
 </div>
 
-<button onclick="tambahData()">Tambah Setoran</button>
+<div class="card">
+<h3>Akhlak Baik</h3>
+<p>95%</p>
+</div>
 
-<script src="script.js"></script>
+</div>
 
 </body>
 </html>
